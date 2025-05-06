@@ -1,11 +1,9 @@
-using Xunit;
-using FrequencyAnalyzer.Services;
 
 namespace FrequencyAnalyzer.Tests;
 
 public class TextAnalyzerTests
 {
-    private readonly ITextAnalyzer _analyzer = new TextAnalyzer();
+    private readonly TextAnalyzer _analyzer = new TextAnalyzer();
 
     [Fact]
     public void AnalyzeText_WithSampleText_ReturnsCorrectResult()

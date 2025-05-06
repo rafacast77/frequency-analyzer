@@ -1,4 +1,5 @@
-﻿using FrequencyAnalyzer.Services;
+﻿
+using FrequencyAnalyzer;
 
 class Program
 {

@@ -1,5 +1,3 @@
-using FrequencyAnalyzer.Models;
-
 namespace FrequencyAnalyzer;
 
 public record CharacterFrequency(char Character, int Count);
