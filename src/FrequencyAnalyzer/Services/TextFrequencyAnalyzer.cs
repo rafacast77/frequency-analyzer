@@ -1,8 +1,11 @@
 using FrequencyAnalyzer.Models;
 
-namespace FrequencyAnalyzer.Services;
+namespace FrequencyAnalyzer;
 
-public class TextAnalyzer : ITextAnalyzer
+public record CharacterFrequency(char Character, int Count);
+public record AnalysisResult(int TotalCharacters, IReadOnlyList<CharacterFrequency> TopCharacters);
+
+public class TextAnalyzer
 {
     private static readonly char[] WhiteSpaceChars = { ' ', '\r', '\n', '\t' };
 
