@@ -83,8 +83,6 @@ dotnet test
 
 ```
 src/FrequencyAnalyzer/       → Main application code
-├── Services/                → Core analysis logic
-├── Models/                  → Data models
 src/FrequencyAnalyzer.Tests/ → Unit tests
 samples/                     → Example text files
 ```
